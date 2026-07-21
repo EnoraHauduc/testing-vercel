@@ -1,0 +1,127 @@
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+}
+
+.hero {
+  margin-bottom: 3.5rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 0 0 0.75rem;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin: 0 0 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 640px;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+}
+
+.sectionText {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  max-width: 700px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.6rem;
+  color: var(--color-accent);
+}
+
+.cardText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.listItem {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.resourceList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.resourceItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-accent-light);
+  border-radius: 10px;
+}
+
+.resourceName {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.resourceDetail {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+}
+
+.closing {
+  margin-bottom: 3rem;
+}
+
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
